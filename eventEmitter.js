@@ -31,7 +31,6 @@ eventEmitter.on('end', () => {
   console.log('EventEmitter just finished emitting events');
 });
 
-
 eventEmitter.emit('start');
 eventEmitter.emit('about-to-complete');
 eventEmitter.emit('perform', tasks.create);
